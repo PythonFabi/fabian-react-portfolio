@@ -27,8 +27,10 @@ export default function PortfolioPage() {
 
     return (
         <div>
-            <Header> 
-                <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/> 
+            <Header>
+                {{
+                  navbar: <Navbar currentPage={currentPage} handlePageChange={handlePageChange} /> 
+                }}          
             </Header>
             <Footer />
             {renderPage()}
