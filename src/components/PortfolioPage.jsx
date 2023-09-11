@@ -6,7 +6,6 @@ import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-import '../styles/PortfolioPage.css';
 
 export default function PortfolioPage() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -27,7 +26,7 @@ export default function PortfolioPage() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div className='body'>
             <Header>
                 {{
                   navbar: <Navbar currentPage={currentPage} handlePageChange={handlePageChange} /> 
