@@ -1,5 +1,5 @@
 :root {
-    --dark: black;
+    --dark: rgb(37, 34, 34);
     --gold: rgb(200,160,40);
     --coffee-brown: rgb(111,78,55);
     --beige: rgb(245,245,220);
@@ -21,4 +21,18 @@ body {
 .pages {
     color: var(--beige);
 
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
+}
+
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.671));
+}
+
+.icon-links {
+    font-size: 3rem;
+    margin: 2rem;
+    color: var(--gold);
 }

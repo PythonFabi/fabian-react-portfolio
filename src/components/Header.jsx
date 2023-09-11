@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header({ children }) {
     return (
-        <header>
+        <header className='header'>
             <h1>PythonFabi</h1>
             <nav>
                 {children.navbar}
