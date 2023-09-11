@@ -1,0 +1,24 @@
+:root {
+    --dark: black;
+    --gold: rgb(200,160,40);
+    --coffee-brown: rgb(111,78,55);
+    --beige: rgb(245,245,220);
+}
+
+body {
+    color: var(--gold);
+    background-image: url(../img/gold-black.jpg);
+}
+
+.aboutme {
+    color: var(--beige);
+}
+
+.nav-link {
+    color: var(--gold);
+}
+
+.pages {
+    color: var(--beige);
+
+}
