@@ -31,6 +31,18 @@ body {
 }
 
 
+/* AboutMe.jsx */
+.my-picture {
+    height: 22rem;
+    width: 21rem;
+    border-radius: 60%;
+    margin: 1rem;
+}
+
+.about-me-paragraph {
+    margin-bottom: 5rem;
+}
+
 /* Contact.jsx */
 form {
     margin: 1rem
@@ -64,11 +76,9 @@ form {
     font-size: 2rem;
     margin: 2rem;
     color: var(--gold);
+    transition: all 0.2s ease-in-out;
 }
 
-/* AboutMe.jsx */
-.my-picture {
-    height: 18rem;
-    width: 10rem;
-    border-radius: 60%;
+.icon-links:hover {
+    font-size: 3rem;
 }

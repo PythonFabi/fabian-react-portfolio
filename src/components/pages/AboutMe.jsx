@@ -7,7 +7,7 @@ function AboutMe() {
       <h2>About Me</h2>
 
       <img src={myPicture} alt="Fabian in front of Lake Louise" className="my-picture"/>
-      <p>Welcome to my Portfolio! <br/>
+      <p className="about-me-paragraph">Welcome to my Portfolio! <br/>
       My name is <strong>Fabian Wagner</strong> and I am a full stack web developer. I am currently enrolled in the SCS Full Stack Flex Coding Bootcamp
       at the <em>University of Toronto</em>. This Bootcamp teached me, how to become proficient in the latest front-end and back-end technologies and using those together in a full stack.
       <br/>
