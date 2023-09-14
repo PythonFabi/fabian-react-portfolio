@@ -10,48 +10,11 @@ body {
     background-image: url(../img/gold-black.jpg);
 }
 
-.aboutme {
-    color: var(--beige);
-}
-
-.nav-link {
-    color: var(--gold);
-}
-
-.nav-link:hover {
-    color: var(--beige);
-}
-
 .pages {
     color: var(--beige);
-
-}
-
-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
 }
 
 
 
-form {
-    margin: 1rem
-}
 
-.form-item {
-    margin-bottom: 1rem;
-}
 
-.submit-btn {
-    margin-top: 0.25rem;
-    background-color: var(--gold);
-    border: var(--gold);
-}
-
-.submit-btn:hover {
-   background-color: var(--beige);
-   color: var(--coffee-brown);
-}
-
-.error-text {
-    margin: 1rem;
-}
