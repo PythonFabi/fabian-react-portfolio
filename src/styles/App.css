@@ -12,8 +12,16 @@ body {
 
 .pages {
     color: var(--beige);
+    margin: 1rem;
 }
 
+.nav-link {
+    color: var(--gold);
+}
+
+.nav-link:hover {
+    color: var(--beige);
+}
 
 
 
