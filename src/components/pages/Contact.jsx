@@ -54,30 +54,37 @@ function Contact() {
     <div className="contact pages">
       <h2>Contact</h2>
       <form className='form'>
+        <label for="name" className="form-label">Name:</label>
         <input
-          className="form-control"
+          className="form-control form-item"
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
+          id="name"
           placeholder="name"
         />
+        <label for="email" className="form-label">Email:</label>
          <input
-          className="form-control"
+          className="form-control form-item"
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
+          id="email"
           placeholder="email"
         />
+        <label for="message" className="form-label">Message:</label>
          <textarea
-          className="form-control"
+          className="form-control form-item"
+          rows="6"
           value={message}
           name="message"
+          id="message"
           onChange={handleInputChange}
           placeholder="message"
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        <button type="button" onClick={handleFormSubmit} className='btn btn-primary submit-btn'>Submit</button>
       </form>
       {errorMessage && (
         <div>
