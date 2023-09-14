@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
-  const [name, submitName] = useState('');
-  const [email, submitEmail] = useState('');
-  const [message, submitMessage] = useState('');
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (e) => {
@@ -13,11 +13,11 @@ function Contact() {
     const inputValue = target.value;
 
     if (inputType === 'name') {
-      submitName('inputValue');
+      setName(inputValue);
     } else if (inputType === 'email') {
-      submitEmail(inputValue);
+      setEmail(inputValue);
     } else {
-      submitMessage(inputValue);
+      setMessage(inputValue);
     }
   };
 
@@ -44,16 +44,18 @@ function Contact() {
       setErrorMessage(`${missingFields.join(', ')} ${missingFields.length === 1 ? 'is' : 'are'} required`);
       return;
     }
-    submitName('');
-    submitEmail('');
-    submitMessage('');
+    setName('');
+    setEmail('');
+    setMessage('');
+    setErrorMessage('');
   };
 
   return (
     <div className="contact pages">
       <h2>Contact</h2>
-      <form>
+      <form className='form'>
         <input
+          className="form-control"
           value={name}
           name="name"
           onChange={handleInputChange}
@@ -61,6 +63,7 @@ function Contact() {
           placeholder="name"
         />
          <input
+          className="form-control"
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -68,8 +71,7 @@ function Contact() {
           placeholder="email"
         />
          <textarea
-          rows="5"
-          cols="33"
+          className="form-control"
           value={message}
           name="message"
           onChange={handleInputChange}
