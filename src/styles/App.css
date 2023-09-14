@@ -5,6 +5,13 @@
     --beige: rgb(245,245,220);
 }
 
+/* header.jsx */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
+  }
+
+
+/* App.jsx */
 body {
     color: var(--gold);
     background-image: url(../img/gold-black.jpg);
@@ -24,5 +31,44 @@ body {
 }
 
 
+/* Contact.jsx */
+form {
+    margin: 1rem
+}
 
+.form-item {
+    margin-bottom: 1rem;
+}
 
+.submit-btn {
+    margin-top: 0.25rem;
+    background-color: var(--gold);
+    border: var(--gold);
+}
+
+.submit-btn:hover {
+   background-color: var(--beige);
+   color: var(--coffee-brown);
+}
+
+.error-text {
+    margin: 1rem;
+}
+
+/* footer.jsx */
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.671));
+}
+
+.icon-links {
+    font-size: 2rem;
+    margin: 2rem;
+    color: var(--gold);
+}
+
+/* AboutMe.jsx */
+.my-picture {
+    height: 18rem;
+    width: 10rem;
+    border-radius: 60%;
+}
