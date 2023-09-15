@@ -1,5 +1,5 @@
 import React from "react";
-import myPicture from '../../img/fabian-lake-louise-format.jpg'
+import myPicture from '../../img/fabian-lake-louise-format-min.jpg'
 
 function AboutMe() {
   return (

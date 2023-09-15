@@ -86,21 +86,21 @@ form {
 /* Portfolio.jsx */
 
 .fit-with-vids {
-    background-image: url(../img/dark-exercise.jpg);
+    background-image: url(../img/dark-exercise-min.jpg);
     background-size: cover;
     padding: 3rem;
     margin: 3rem;
 }
 
 .mode-de-vie {
-    background-image: url(../img/social-media.jpg);
+    background-image: url(../img/social-media-min.jpg);
     background-size: cover;
     padding: 3rem;
     margin: 3rem;
 }
 
 .my-tech-blog {
-    background-image: url(../img/coding.jpg);
+    background-image: url(../img/coding-min.jpg);
     background-size:cover;
     padding: 3rem;
     margin: 3rem;
@@ -108,21 +108,21 @@ form {
 
 
 .social-network-api {
-    background-image: url(../img/question.jpg);
+    background-image: url(../img/question-min.jpg);
     background-size:contain;
     padding: 3rem;
     margin: 3rem;
 }
 
 .employee-tracker {
-    background-image: url(../img/data.jpg);
+    background-image: url(../img/data-min.jpg);
     background-size:cover;
     padding: 3rem;
     margin: 3rem;
 }
 
 .my-weather-dashboard {
-    background-image: url(../img/lightning.jpg);
+    background-image: url(../img/lightning-min.jpg);
     background-size:cover;
     padding: 3rem;
     margin: 3rem;
