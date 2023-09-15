@@ -15,6 +15,7 @@ header {
 body {
     color: var(--gold);
     background-image: url(../img/gold-black.jpg);
+    background-size: cover;
 }
 
 .pages {
@@ -155,6 +156,12 @@ form {
 .project-link {
     text-decoration: none;
     color: var(--gold);
+}
+
+/* Resume.js */
+.resume-download {
+    color: var(--gold);
+
 }
 
 @media screen and (min-width: 370px) {
