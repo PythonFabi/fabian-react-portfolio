@@ -2,8 +2,8 @@ import React from 'react';
 
 function Header({ children }) {
     return (
-        <header className='header'>
-            <h1 className>PythonFabi</h1>
+        <header className='portfolio-header'>
+            <h1>PythonFabi</h1>
             <nav>
                 {children.navbar}
             </nav>
