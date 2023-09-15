@@ -92,10 +92,23 @@ form {
 }
 
 .single-project {
-    font-size: 1rem;
+    height: 20rem;
+    width: 30rem;
     transition: all 0.2s ease-in-out;
 }
 
+.project-content {
+    font-size: 1rem;
+}
+
+.project-content h3{
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.project-description {
+    margin-top: 1rem;
+}
 
 .project-icon {
     font-size: 2rem;
@@ -103,9 +116,7 @@ form {
     color: var(--gold);
 }
 
-.project-description {
-    font-size: 1em;
-}
+
 
 .project-link {
     text-decoration: none;
@@ -137,7 +148,19 @@ form {
         margin-right: 6rem
     }
 
- 
+    .project-content {
+        font-size: 1.5rem;
+    }
+
+    
+    .project-icon {
+        font-size: 2.5rem;
+    }
+    
+    .project-content h3{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
 }
 
 @media screen and (min-width:767px) {
@@ -149,6 +172,19 @@ form {
         margin-right: 15rem
     }
 
+    .project-content {
+        font-size: 2rem;
+    }
+
+    .project-icon {
+        font-size: 2.75rem;
+    }
+    
+    .project-content h3{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
 }
 
 @media screen and (min-width:1024px) {
@@ -157,12 +193,15 @@ form {
     }
 
     .single-project:hover {
-        font-size: 0.75rem;
+        font-size: 2rem;
+        height: 18rem;
+        width: 28rem;
         opacity: 80%;
     }
     
     .single-project:hover .project-content {
         visibility: visible;
+        font-size: 1.5rem;
     }  
 
     .icon-links:hover {
