@@ -6,9 +6,9 @@ function Project (props) {
     return (
         <div className={props.className} >
          <div className="project-content">
-            <a href={props.link}><h3>{props.title}</h3></a>
+            <a className="project-link"href={props.link}><h3>{props.title}</h3></a>
             <a className="project-icon" href={props.githublink}><FontAwesomeIcon icon={faGithub} /></a>
-            <p>{props.description}</p>
+            <p className="project-description">{props.description}</p>
          </div>
         </div>
     );

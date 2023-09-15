@@ -100,6 +100,16 @@ form {
 .project-icon {
     font-size: 2rem;
     margin: 2rem;
+    color: var(--gold);
+}
+
+.project-description {
+    font-size: 1em;
+}
+
+.project-link {
+    text-decoration: none;
+    color: var(--gold);
 }
 
 @media screen and (min-width: 370px) {
@@ -148,7 +158,7 @@ form {
 
     .single-project:hover {
         font-size: 0.75rem;
-        opacity: 60%;
+        opacity: 80%;
     }
     
     .single-project:hover .project-content {
@@ -161,6 +171,14 @@ form {
 
     form {
         margin-right: 20rem
+    }
+
+    .project-icon:hover {
+      color: var(--beige);
+    }
+    
+    .project-link:hover {
+        color: var(--beige);
     }
 }
 
