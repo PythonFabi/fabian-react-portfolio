@@ -4,7 +4,7 @@ function Resume() {
   return (
     <div className="resume pages">
       <h2>Resume</h2>
-      <p>Here is my resume</p>
+      <p>Download my resume</p>
     </div>
   );
 }

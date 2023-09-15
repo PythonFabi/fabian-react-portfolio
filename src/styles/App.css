@@ -82,3 +82,12 @@ form {
 .icon-links:hover {
     font-size: 3rem;
 }
+
+/* Portfolio.jsx */
+
+.fit-with-vids {
+    background-image: url(../img/dark-exercise.jpg);
+    background-size: cover;
+    padding: 3rem;
+    margin: 3rem;
+}
