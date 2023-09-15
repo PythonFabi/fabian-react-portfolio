@@ -24,6 +24,7 @@ body {
 
 .nav-link {
     color: var(--gold);
+    font-size: 0.9rem;
 }
 
 .nav-link:hover {
@@ -33,8 +34,8 @@ body {
 
 /* AboutMe.jsx */
 .my-picture {
-    height: 22rem;
-    width: 21rem;
+    height: 18rem;
+    width: 17rem;
     border-radius: 60%;
     margin: 1rem;
 }
@@ -74,14 +75,12 @@ form {
 
 .icon-links {
     font-size: 2rem;
-    margin: 2rem;
+    margin: 1.75rem;
     color: var(--gold);
     transition: all 0.2s ease-in-out;
 }
 
-.icon-links:hover {
-    font-size: 3rem;
-}
+
 
 /* Portfolio.jsx */
 
@@ -90,4 +89,90 @@ form {
     background-size: cover;
     padding: 3rem;
     margin: 3rem;
+}
+
+.single-project {
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.project-icon {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+@media screen and (min-width: 370px) {
+    .nav-link {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .my-picture {
+        height: 22rem;
+        width: 21rem;
+    }
+
+    .icon-links {
+        font-size: 2rem;
+        margin: 2rem;
+    }
+
+    .header {
+        font-size: 1.1rem;
+    }
+
+    form {
+        margin-right: 6rem
+    }
+
+ 
+}
+
+@media screen and (min-width:767px) {
+    .header {
+        font-size: 1.25rem;
+    }
+
+    form {
+        margin-right: 15rem
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .project-content {
+        visibility: hidden;
+    }
+
+    .single-project:hover {
+        font-size: 0.75rem;
+        opacity: 60%;
+    }
+    
+    .single-project:hover .project-content {
+        visibility: visible;
+    }  
+
+    .icon-links:hover {
+        font-size: 3rem;
+    }  
+
+    form {
+        margin-right: 20rem
+    }
+}
+
+@media screen and (min-width:1280px) {
+
+    form {
+        margin-right: 30rem
+    }
+}
+
+@media screen and (min-width:1281px) {
+    form {
+        margin-right: 70rem
+    }
 }
