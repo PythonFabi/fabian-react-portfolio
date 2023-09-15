@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# React Portfolio Fabian
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Welcome to my React Portfolio!
+This application is my porfolio, which is staging my applications I've built so far with and without collaboration.
+The portfolio is built with React.
+You can see a short bio about me, my projects, you can fill out a contact form and view my resume.
 
-In the project directory, you can run:
+(My Portfolio)[https://pythonfabi.github.io/fabian-react-portfolio/]
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To install my portfolio, simply open the app and click the icon in the browser searchbar on the top right.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+First you will be directed to the "About Me" section, which portrays a picture of myself and a short bio about me.
+Under my username you will find a the navbar, which will render the different sections of my portfolio.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In the bottom, you will find clickable icons, which lead to my Github, LinkedIn, Instagram and Twitter.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Once you click on the Porfolio title in the navbar, you will be directed to the page, that showcases 6 of my projects.
+If you hover over one of those projects, you will be able to see the title, which will lead you to the deployed application, once clicked.
+Additionally you will see a github icon, which will lead you to the github repo of the corresponding project.
+Under those two, you will find a description, that describes what kind of app is presented here.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once you get to the contact section, you will find a form, where you can enter your contact information. 
+If you move the cursor out of the form fields and click, you will see a notification, which fields are missing.
 
-### `npm run eject`
+Also, if the typed in email is incorrect, another errormessage will be displayed.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+On the last page is my resume, which is downloadable, once the link is clicked.
+Under the downloadable are my front-end, back-end and full stack proficiencies listed.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Enjoy exploring my Portfolio!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Credits
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+N/A
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This is a MIT Licensed product.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

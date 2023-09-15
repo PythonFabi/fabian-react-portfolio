@@ -12,22 +12,16 @@ function Contact() {
     const inputType = target.name;
     const inputValue = target.value;
 
-    if (inputType === 'name') {
+    if (inputType === 'Name') {
       setName(inputValue);
-    } else if (inputType === 'email') {
+    } else if (inputType === 'Email') {
       setEmail(inputValue);
     } else {
       setMessage(inputValue);
     }
   };
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-
-    if(!validateEmail(email)) {
-      setErrorMessage('Email is invalid!');
-      return;
-    }
+  const handleblur = (e) => {
     if(!name || !email || !message) {
       let missingFields = [];
 
@@ -44,6 +38,16 @@ function Contact() {
       setErrorMessage(`${missingFields.join(', ')} ${missingFields.length === 1 ? 'is' : 'are'} required`);
       return;
     }
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    if(!validateEmail(email)) {
+      setErrorMessage('Email is invalid!');
+      return;
+    }
+    
     setName('');
     setEmail('');
     setMessage('');
@@ -54,32 +58,35 @@ function Contact() {
     <div className="contact pages">
       <h2>Contact</h2>
       <form className='form'>
-        <label for="name" className="form-label">Name:</label>
+        <label htmlFor="name" className="form-label">Name:</label>
         <input
           className="form-control form-item"
           value={name}
-          name="name"
+          name="Name"
           onChange={handleInputChange}
+          onBlur={handleblur}
           type="text"
           id="name"
           placeholder="name"
         />
-        <label for="email" className="form-label">Email:</label>
+        <label htmlFor="email" className="form-label">Email:</label>
          <input
           className="form-control form-item"
           value={email}
-          name="email"
+          name="Email"
           onChange={handleInputChange}
+          onBlur={handleblur}
           type="email"
           id="email"
           placeholder="email"
         />
-        <label for="message" className="form-label">Message:</label>
+        <label htmlFor="message" className="form-label">Message:</label>
          <textarea
           className="form-control form-item"
           rows="6"
           value={message}
-          name="message"
+          name="Message"
+          onBlur={handleblur}
           id="message"
           onChange={handleInputChange}
           placeholder="message"
