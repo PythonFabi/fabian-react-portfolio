@@ -7,7 +7,7 @@ This application is my porfolio, which is staging my applications I've built so 
 The portfolio is built with React.
 You can see a short bio about me, my projects, you can fill out a contact form and view my resume.
 
-(My Portfolio)[https://pythonfabi.github.io/fabian-react-portfolio/]
+[My Portfolio](https://pythonfabi.github.io/fabian-react-portfolio/)
 
 ## Table of Contents
 
