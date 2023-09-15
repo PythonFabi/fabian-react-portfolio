@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fabian-react-portfolio/static/css/main.0b9849d3.css",
-    "main.js": "/fabian-react-portfolio/static/js/main.eb58148a.js",
+    "main.js": "/fabian-react-portfolio/static/js/main.f99bb10f.js",
     "static/media/data.jpg": "/fabian-react-portfolio/static/media/data.9da42f60e344d95dd1f2.jpg",
     "static/media/question.jpg": "/fabian-react-portfolio/static/media/question.fccaa5cff01eae83bb86.jpg",
     "static/media/coding.jpg": "/fabian-react-portfolio/static/media/coding.a2e3ef5fef2cddde8f27.jpg",
@@ -13,10 +13,10 @@
     "static/media/resume-canada.docx": "/fabian-react-portfolio/static/media/resume-canada.63824fe2e6d11b14e23f.docx",
     "index.html": "/fabian-react-portfolio/index.html",
     "main.0b9849d3.css.map": "/fabian-react-portfolio/static/css/main.0b9849d3.css.map",
-    "main.eb58148a.js.map": "/fabian-react-portfolio/static/js/main.eb58148a.js.map"
+    "main.f99bb10f.js.map": "/fabian-react-portfolio/static/js/main.f99bb10f.js.map"
   },
   "entrypoints": [
     "static/css/main.0b9849d3.css",
-    "static/js/main.eb58148a.js"
+    "static/js/main.f99bb10f.js"
   ]
 }
