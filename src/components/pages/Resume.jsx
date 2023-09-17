@@ -1,12 +1,15 @@
 import React from "react";
+// import resume
 import myResume from '../../docs/resume-canada.docx';
 
 function Resume() {
   return (
     <div className="resume pages">
       <h2>Resume</h2>
+      {/* create download link for my resume */}
       <p>Download my <a href={myResume} download="resume-canada.docx" className="resume-download">resume</a></p>
 
+{/* display proficiencies in ul for front-end back-end and full stack */}
       <div className="proficiencies">
       <h3>Front-end Proficiencies</h3>
       <ul>

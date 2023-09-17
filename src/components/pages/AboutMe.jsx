@@ -1,6 +1,8 @@
+// import React for the aboutme component and mypicture
 import React from "react";
 import myPicture from '../../img/fabian-lake-louise-format-min.webp'
 
+// about me component that displays my image and a short bio
 function AboutMe() {
   return (
     <div className="aboutme pages">

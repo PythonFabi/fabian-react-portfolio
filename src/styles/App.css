@@ -163,7 +163,7 @@ form {
     color: var(--gold);
 
 }
-
+/* media queries for different screen sizes */
 @media screen and (min-width: 370px) {
     .nav-link {
         font-size: 1rem;
