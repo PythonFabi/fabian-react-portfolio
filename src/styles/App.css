@@ -55,7 +55,7 @@ body {
 }
 
 form {
-    margin: 1rem
+    margin: 1rem;
 }
 
 .form-item {
@@ -272,7 +272,12 @@ form {
     }  
 
     form {
-        margin-right: 20rem
+        margin-right: 20rem;
+        margin: 1rem;
+        text-align: center;
+        width: 100%;
+        max-width: 400%;
+        padding: 20px;
     }
 
     .project-icon:hover {
