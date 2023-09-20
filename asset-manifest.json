@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fabian-react-portfolio/static/css/main.7f349aea.css",
+    "main.css": "/fabian-react-portfolio/static/css/main.0e4b0512.css",
     "main.js": "/fabian-react-portfolio/static/js/main.5efc5270.js",
     "static/media/data-min.jpg": "/fabian-react-portfolio/static/media/data-min.a10a5d75785c2a043c6d.jpg",
     "static/media/social-media-min.jpg": "/fabian-react-portfolio/static/media/social-media-min.91991dc1246e38509214.jpg",
@@ -12,11 +12,11 @@
     "static/media/dark-exercise-min.jpg": "/fabian-react-portfolio/static/media/dark-exercise-min.a34af661fc86c66918a0.jpg",
     "static/media/resume-canada.docx": "/fabian-react-portfolio/static/media/resume-canada.63824fe2e6d11b14e23f.docx",
     "index.html": "/fabian-react-portfolio/index.html",
-    "main.7f349aea.css.map": "/fabian-react-portfolio/static/css/main.7f349aea.css.map",
+    "main.0e4b0512.css.map": "/fabian-react-portfolio/static/css/main.0e4b0512.css.map",
     "main.5efc5270.js.map": "/fabian-react-portfolio/static/js/main.5efc5270.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f349aea.css",
+    "static/css/main.0e4b0512.css",
     "static/js/main.5efc5270.js"
   ]
 }
