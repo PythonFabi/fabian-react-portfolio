@@ -34,6 +34,10 @@ body {
 
 
 /* AboutMe.jsx */
+.aboutme {
+    text-align: center;
+}
+
 .my-picture {
     height: 18rem;
     width: 17rem;
@@ -46,6 +50,10 @@ body {
 }
 
 /* Contact.jsx */
+.contact {
+    text-align: center;
+}
+
 form {
     margin: 1rem
 }
@@ -161,7 +169,21 @@ form {
 /* Resume.js */
 .resume-download {
     color: var(--gold);
+}
 
+.resume {
+    text-align: center;
+}
+
+.proficiencies {
+    margin: 3rem;
+}
+
+
+.proficiencies ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
 }
 /* media queries for different screen sizes */
 @media screen and (min-width: 370px) {
