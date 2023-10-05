@@ -100,6 +100,13 @@ form {
     margin: 3rem;
 }
 
+.clothestation {
+    background-image: url(../img/shop.jpg);
+    background-size: cover;
+    padding: 3rem;
+    margin: 3rem;
+}
+
 .mode-de-vie {
     background-image: url(../img/social-media-min.jpg);
     background-size: cover;
@@ -122,12 +129,12 @@ form {
     margin: 3rem;
 }
 
-.employee-tracker {
+/* .employee-tracker {
     background-image: url(../img/data-min.jpg);
     background-size:cover;
     padding: 3rem;
     margin: 3rem;
-}
+} */
 
 .my-weather-dashboard {
     background-image: url(../img/lightning-min.jpg);

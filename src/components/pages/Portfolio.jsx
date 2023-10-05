@@ -8,6 +8,14 @@ function Portfolio() {
     <div className="portfolio pages">
       <h2>Portfolio</h2>
       <div className="d-flex flex-wrap">
+        {/* ClotheStation */}
+      <Project
+          className="clothestation single-project"
+          link="https://urban-sk8-ef054e6c42c1.herokuapp.com/"
+          title="Clothestation"
+          githublink="https://github.com/cdelacruzzin/ClotheStation"
+          description="MERN Stack APP"
+        />
         {/* Mode de Vie */}
         <Project
         // pass in classes for individual project to handle different backgrounds and single project class
@@ -21,6 +29,7 @@ function Portfolio() {
           // technical description for corresponding app
           description="MVC APP"
         />
+     
         {/* Fit with Vids */}
         <Project
           className="fit-with-vids single-project"
@@ -45,14 +54,14 @@ function Portfolio() {
           githublink="https://github.com/PythonFabi/my-social-network-api"
           description="Back-end Express.js app with MongoDB"
         />
-        {/* Employee-Tracker */}
+        {/* Employee-Tracker
         <Project
           className="employee-tracker single-project"
           link="https://drive.google.com/file/d/1J8Eac3SRjXf4tKRDQbD1gBVwkK4TMqTl/view"
           title="Employee Tracker"
           githublink="https://github.com/PythonFabi/my-employee-tracker"
           description="Node.js App with SQL"
-        />
+        /> */}
         {/* Weather Dashboard */}
         <Project
           className="my-weather-dashboard single-project"
