@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fabian-react-portfolio/static/css/main.dbac06a4.css",
-    "main.js": "/fabian-react-portfolio/static/js/main.1c4578c8.js",
+    "main.js": "/fabian-react-portfolio/static/js/main.90647070.js",
     "static/media/social-media-min.jpg": "/fabian-react-portfolio/static/media/social-media-min.91991dc1246e38509214.jpg",
     "static/media/coding-min.jpg": "/fabian-react-portfolio/static/media/coding-min.20ce411e96f5279a1cfc.jpg",
     "static/media/shop.jpg": "/fabian-react-portfolio/static/media/shop.5f24c1f09b5959993ac4.jpg",
@@ -10,13 +10,13 @@
     "static/media/fabian-lake-louise-format-min.webp": "/fabian-react-portfolio/static/media/fabian-lake-louise-format-min.e2d4caf2a592098fd17f.webp",
     "static/media/gold-black.jpg": "/fabian-react-portfolio/static/media/gold-black.ae2ecfab36ecd5a53d01.jpg",
     "static/media/dark-exercise-min.jpg": "/fabian-react-portfolio/static/media/dark-exercise-min.a34af661fc86c66918a0.jpg",
-    "static/media/resume-canada.docx": "/fabian-react-portfolio/static/media/resume-canada.63824fe2e6d11b14e23f.docx",
+    "static/media/Fabian_Wagner_Resume_Update_1.pdf": "/fabian-react-portfolio/static/media/Fabian_Wagner_Resume_Update_1.447ffef43b0fd9d96dc7.pdf",
     "index.html": "/fabian-react-portfolio/index.html",
     "main.dbac06a4.css.map": "/fabian-react-portfolio/static/css/main.dbac06a4.css.map",
-    "main.1c4578c8.js.map": "/fabian-react-portfolio/static/js/main.1c4578c8.js.map"
+    "main.90647070.js.map": "/fabian-react-portfolio/static/js/main.90647070.js.map"
   },
   "entrypoints": [
     "static/css/main.dbac06a4.css",
-    "static/js/main.1c4578c8.js"
+    "static/js/main.90647070.js"
   ]
 }
