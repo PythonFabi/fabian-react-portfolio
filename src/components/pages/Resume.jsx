@@ -1,13 +1,13 @@
 import React from "react";
 // import resume
-import myResume from '../../docs/resume-canada.docx';
+import myResume from '../../docs/Fabian_Wagner_Resume_Update_1.pdf';
 
 function Resume() {
   return (
     <div className="resume pages">
       <h2>Resume</h2>
       {/* create download link for my resume */}
-      <p>Download my <a href={myResume} download="resume-canada.docx" className="resume-download">resume</a></p>
+      <p>Download my <a href={myResume} download="Fabian_Wagner_Resume_Update_1" className="resume-download">resume</a></p>
 
 {/* display proficiencies in ul for front-end back-end and full stack */}
       <div className="proficiencies">
