@@ -110,14 +110,19 @@ function Contact() {
         {/* submit button that handles the handleFormSubmit */}
         <button type="button" onClick={handleFormSubmit} className='btn btn-primary submit-btn'>Submit</button>
       </form>
+      <p>Alternatively you can find my email in the footer, once the mail icon is clicked</p>
       {/* errorMessage in form of a paragraph */}
       {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <em><p className="error-text">{errorMessage}</p></em>
         </div>
       )}
     </div>
+
+    
   );
 }
 
 export default Contact;
+
+
